@@ -14,6 +14,8 @@ GPU access recommended for embedding and generation tasks
 
 Follow these steps in order to build the knowledge base and generate predictions.
 
+Note: you can find the folder `processed` [here](https://drive.google.com/drive/folders/1zIhh8PITq2Btrt5yALoSeGnVBl5NkJCn?usp=drive_link), which includes files for docs, chunks, bm25, and faiss. You can download and drag this folder under `data`, then you can run model inference with it.
+
 **Step 1: Data Collection**
 
 Collect raw web pages using the Firecrawl API. This script utilizes a priority queue to scrape URLs and their sub-links.
